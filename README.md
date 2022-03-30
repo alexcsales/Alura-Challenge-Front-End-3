@@ -1,4 +1,4 @@
-<h1 align='center'>Online store</h1>
+<h1 align='center'>Alura-Challenge-Front-End-3</h1>
 
 <h3 align='center'>3rd edition of Alura's front-end challenge: create an online store.</h3>
 
