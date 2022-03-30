@@ -1,0 +1,32 @@
+:root {
+    --branco:#FFFFFF;
+    --preto05:#F5F5F5;
+    --preto50:#A2A2A2;
+    --preto100:#464646;
+    --azul20:#D4E4FA;
+    --azul100:#2A7AE4;
+
+
+
+}
+
+.app {
+    background: var(--branco);
+    color: var(--preto100);
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem; 
+}

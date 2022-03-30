@@ -4,21 +4,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>AluraGeek</title>
+
+  <link href="css/reset.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/principal.css">
+  <link rel="stylesheet" href="css/rodape.css">
+  <link rel="stylesheet" href="css/responsivos.css">
+
+  <script src="https://kit.fontawesome.com/cfb15a5673.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="app">
-  <header class="cabecalho">
-    <div>
-      <img src="Logo.png" alt="Logo">
-      <input type="search" placeholder="Oque deseja encontrar?" required>
+  <header class="cabecalho container">
+    <div class="cabecalho__conteudo">
+      <div class="logo">
+        <a href="#"><img class="logo__imagem" src="img/Logo.svg" alt="Logo"></a>
+        <p class="logo__texto">Alura</p>
+        <p class="logo__texto">Geek</p>
+      </div>
+      <div class="cabecalho__busca">
+        <input class="conteudo__barra" type="search" placeholder="Oque deseja encontrar? " required>
+        <button class="conteudo__botao"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
     </div>
-    <button>Login</button>
+    <button class="cabecalho__botao">Login</button>
   </header>
-  <main class="conteudo">
+  <main class="Principal">
+    <section class="principal__banner">
+      <img class="banner__imagem" src="img/banner.png" alt="Banner">
+      <div class="banner__conteudo">
+        <h2 class="banner__texto">Desembro Promocional</h2>
+        <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
+        <button class="banner__botao">Ver consoles</button>
+      </div>
+    </section>
+    <div class="container">
+      <section class="principal__produtos">
+        <div class="produtos__cabecalho">
+          <h3 class="produtos__cabecalho-titulo">Star Wars</h3>
+          <a class="produtos__cabecalho-link" href="">Ver tudo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="produtos__conteudo">
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto1.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto2.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto3.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto4.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto5.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__itens">
+            <img class="itens__imagem" src="img/Produto6.png" alt="">
+            <p class="itens__texto">Produto XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="produtos">
+        <div class="produtos__cabecalho">
+          <h3 class="produtos__cabecalho-titulo">Consoles</h3>
+          <a class="produtos__cabecalho-link" href="">Ver produtos <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="produtos__conteudo">
+          <div class="conteudo__produto">
+            <img src="img/Controle1.png" alt="">
+            <p class="itens__texto">Controle XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Console1.png" alt="">
+            <p class="itens__texto">Controle e console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Console2.png" alt="">
+            <p class="itens__texto">Console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Controle2.png" alt="">
+            <p class="itens__texto">Controle XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Console3.png" alt="">
+            <p class="itens__texto">Console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Console4.png" alt="">
+            <p class="itens__texto">Game Boy Color</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="Produtos">
+        <div class="produtos__cabecalho">
+          <h3 class="produtos__cabecalho-titulo">Diversos</h3>
+          <a class="produtos__cabecalho-link" href="">Ver produtos <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="produtos__conteudo">
+          <div class="conteudo__produto">
+            <img src="img/Camisa1.png" alt="">
+            <p class="itens__texto">Camisa Atari</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Camisa2.png" alt="">
+            <p class="itens__texto">Camisa SNES</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Produto7.png" alt="">
+            <p class="itens__texto">Controle e console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Produto8.png" alt="">
+            <p class="itens__texto">Controle e console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Console5.png" alt="">
+            <p class="itens__texto">Controle e console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+          <div class="conteudo__produto">
+            <img src="img/Produto9.png" alt="">
+            <p class="itens__texto">Controle e console XYZ</p>
+            <p class="itens__preco">R$ 60,00</p>
+            <a class="itens__link" href="#">Ver produtos</a>
+          </div>
+        </div>
+      </section>
+    </div>
 
   </main>
   <footer class="rodape">
-
+    <div class="rodape__conteudo">
+      <div class="conteudo container">
+        <div class="logo">
+          <a href="#"><img class="logo__imagem" src="img/Logo.png" alt="Logo"></a>
+          <p class="logo__texto ativo">Alura</p>
+          <p class="logo__texto">Geek</p>
+        </div>
+        <ul class="rodape__lista-links">
+          <li class="lista__link"><a href="">Quem nós somos</a></li>
+          <li class="lista__link"><a href="">Política de Privacidade</a></li>
+          <li class="lista__link"><a href="">Programa de fidelidade</a>
+          <li class="lista__link"><a href="">Nossas lojas</a></li>
+          <li class="lista__link"><a href="">Quero ser franquiado</a></li>
+          <li class="lista__link"><a href="">Anuncie aqui</a></li>
+        </ul>
+        <form class="rodape__formulario">
+          <p class="formulario__texto">Fale conosco</p>
+          <p class="formulario__input">Nome</p>
+          <input class="formulario__input" type="text" required>
+          <input class="formulario__input" type="text" placeholder="Escreva sua mensagem" required>
+          <button class="formulario__botao">Envia mensagem</button>
+        </form>
+      </div>
+    </div>
+    <p class="rodape__texto">Desenvolvido por <a href="">Alex Sales</a><br>2022</p>
   </footer>
 </body>
 

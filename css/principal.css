@@ -1,0 +1,85 @@
+.principal__banner {
+  position: relative;
+}
+
+.banner__imagem {
+  width: 100%;
+}
+
+.banner__conteudo {
+  position: absolute;
+  left: 9.25rem;
+  bottom: 3rem;
+  color: var(--branco);
+}
+
+.banner__texto {
+  font-size: 3.8rem;
+  font-weight: 700,bold;
+  padding-bottom: 1rem;
+}
+
+.banner__texto:nth-child(2) {
+  font-size: 1.6rem;
+}
+
+.banner__botao {
+  background: var(--azul100);
+  color: var(--branco);
+  border: none;
+  width: 8.3rem;
+  height: 3.1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.produtos__cabecalho-titulo {
+  color: #464646;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem 0;
+}
+
+.produtos__cabecalho-link {
+  color: #2A7AE4;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.produtos__cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.produtos__conteudo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.itens__imagem {
+  width: 12.5rem;
+  margin-right: 0.5rem;
+}
+
+.itens__imagem:last-child {
+  margin-right: 0;
+}
+
+.itens__texto {
+  margin-top: 0.2rem;
+}
+
+.itens__preco {
+  font-weight: bolder;
+  padding: 0.5rem 0;
+}
+
+.itens__link {
+  text-decoration: none;
+  color: #2A7AE4;
+  font-weight: bolder;
+}
